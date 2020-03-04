@@ -6,9 +6,9 @@
 
 ### Links and Resources
 
-- [submission PR]()
-- [ci/cd]() (GitHub Actions)
-- [netlify]()
+- [submission PR](https://github.com/401-advanced-javascript-AhmadK/hooks-api/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-AhmadK/hooks-api/actions) (GitHub Actions)
+- [netlify](https://eager-bartik-2e9268.netlify.com)
 
 #### How to initialize/run your application (where applicable)
 
