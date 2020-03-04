@@ -1,0 +1,54 @@
+form{
+   width:80%;
+   margin: 0 auto;
+   margin-bottom: 2vw;
+   input{
+       margin: 0 auto;
+       width: 15vw;
+       height: 1.5vw;
+       margin-right: 1vw;
+       border: solid 0.5px black;
+   }
+   button{
+       background-color: black;
+       color: white;
+       width: 8vw;
+       height: 1.5vw;
+       border: black;
+       font-family: sans-serif;
+   }
+}
+       .toDoList{
+           width: 80%;
+           margin: 0 auto;
+           li{
+               list-style-type: none;
+               float: left;
+               margin-right: 2vw;
+               font-weight: bold;
+               font-family: sans-serif;
+               line-break: auto;
+           }
+           button{
+            background-color: lightgrey;
+            width: 8vw;
+            height: 1.5vw;
+            border: black;
+            font-family: sans-serif;    
+           }
+       }
+       .done{
+        width: 80%;
+        margin: 0 auto;
+        li{
+            list-style-type: none;
+            float: left;
+            &::after {
+                content: "\A";
+            }
+            margin-right: 2vw;
+            font-weight: bold;
+            font-family: sans-serif;
+            text-decoration-line: line-through;
+        }
+       }
