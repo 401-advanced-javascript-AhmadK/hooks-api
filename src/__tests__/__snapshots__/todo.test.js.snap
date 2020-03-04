@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToDo /> renders correctly 1`] = `
+<main>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Type your list"
+      required={true}
+      type="text"
+    />
+    <input
+      max={5}
+      min={1}
+      onChange={[Function]}
+      placeholder="Difficulty 1-5"
+      required={true}
+      type="number"
+    />
+    <button>
+      Assigned To
+    </button>
+  </form>
+</main>
+`;

@@ -1,0 +1,14 @@
+footer{
+    width: 100%;
+    clear: both;
+    background-color: $componentBackground;
+    position: absolute;
+    bottom: 0%;
+    p{
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+}
